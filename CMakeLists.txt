@@ -157,3 +157,5 @@ enable_testing()
 if (${BUILD_EXAMPLE})
   add_subdirectory(Example) 
 endif()
+
+add_subdirectory(sensor)
